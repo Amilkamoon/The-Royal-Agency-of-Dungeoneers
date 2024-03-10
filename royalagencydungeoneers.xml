@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<elements>
+	<element name="Royal Agency of Dungeoneers (5e)" type="Source" source="Private Homebrew" id="ID_SOURCE_ROYAL_AGENCY_OF_DUNGEONEERS_5E">
+		<description>
+			<html>&lt;p&gt;The players (any module so long as you can give me a source idc), are Agents of R.A.D, the Royal Agency of Dungeoneers. As Royal Dungeoneers, the players job/duties are to prevent the dungeonisation of properties throughout the kingdom, as crypts, cellars, and untended properties tend to attract creatures, necromancers, and other undesirables. They also investigate the taxes of nobles to make sure they don't horde enough gold, wealth, and magic trinkets to attract the attention of dragons&lt;/p&gt;</html>
+		</description>
+		<setters>
+			<set name="abbreviation">R.A.D.</set>
+			<set name="image"></set>
+			<set name="url">https://github.com/Amilkamoon/The-Royal-Agency-of-Dungeoneers.git</set>
+			<set name="author" abbreviation="NGP" url="">Nathan Gordon Paul</set>
+			<set name="release">20230924</set>
+			<set name="homebrew">true</set>
+			<set name="incomplete">true</set>
+		</setters>
+	</element>
+	<element name="Stalking" type="Class Feature" source="Royal Agency of Dungeoneers (5e)" id="ID_NGP_RAD_CLASS_FEATURE_FIGHTING_STYLE_STALKING">
+		<meta>
+			<parent>Fighting Style</parent>
+		</meta>
+		<supports>Fighting Style, Ranger</supports>
+		<description>
+			<html>&lt;p&gt;When attacking a distracted target, the Ranger can Bleed them. Only a single creature can be bled by the same Ranger at any given time. While bleeding, the creature takes an additional 1d4+Wismod weapon damage at the start of each of the Rangers turns. The Ranger has advantage on checks and rolls made against their bleeding target. So long as both the Bleeding creature and the Ranger have moved on each of their most recent/current turns, the Ranger also deals +2 damage to them. A Ranger cannot Bleed any creature that is not also their Favoured Enemy. Also provides the benefits of the Archery Fighting Style.&lt;/p&gt;</html>
+		</description>
+		<sheet>
+			<description>When attacking a distracted target, the Ranger can Bleed them. Only a single creature can be bled by the same Ranger at any given time. While bleeding, the creature takes an additional 1d4+Wismod weapon damage at the start of each of the Rangers turns. The Ranger has advantage on checks and rolls made against their bleeding target. So long as both the Bleeding creature and the Ranger have moved on each of their most recent/current turns, the Ranger also deals +2 damage to them. A Ranger cannot Bleed any creature that is not also their Favoured Enemy. Also provides the benefits of the Archery Fighting Style.</description>
+		</sheet>
+	</element>
+</elements>
